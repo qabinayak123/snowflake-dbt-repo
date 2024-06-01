@@ -1,0 +1,16 @@
+sources:
+  - name: 'dbt_assignment_sources'
+    database: 'DB_ECOMM'
+    schema: 'SC_ECOMM'
+    tables:
+      - name: 'RAW_USERS'
+      - name: 'RAW_COUNTRY'
+
+
+
+
+models:
+  - name: 'dbt_assignment_model'
+    config:
+      materialised: table     
+    
